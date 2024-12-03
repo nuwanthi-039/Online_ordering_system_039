@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "976978492380",
+    "project_id": "hansika-e291c",
+    "storage_bucket": "hansika-e291c.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:976978492380:android:1b3e215a3d8bfc708fad19",
+        "android_client_info": {
+          "package_name": "com.example.ict252"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCWrUkg8p8zzwj6s8cIh_rViEYuyupYCgU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:976978492380:android:4bcd319f6c9f31088fad19",
+        "android_client_info": {
+          "package_name": "com.example.seu_is_18_ict_039"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCWrUkg8p8zzwj6s8cIh_rViEYuyupYCgU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,52 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Admin Dashboard Image at the Top -->
+    <ImageView
+        android:id="@+id/adminImage"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/admin"  />
+
+    <!-- Admin Dashboard Header -->
+    <TextView
+        android:id="@+id/adminHeader"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Admin Dashboard"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="20dp"/>
+
+    <!-- Button to Add New Product -->
+    <Button
+        android:id="@+id/addProductButton"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add New Product"
+        android:layout_marginBottom="20dp"/>
+
+    <!-- Button to Update Product -->
+    <Button
+        android:id="@+id/updateProductButton"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:text="Update Product"
+        android:layout_marginBottom="20dp"/>
+
+    <!-- Button to Delete Product -->
+    <Button
+        android:id="@+id/deleteProductButton"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:text="Delete Product"
+        android:layout_marginBottom="20dp"/>
+</LinearLayout>

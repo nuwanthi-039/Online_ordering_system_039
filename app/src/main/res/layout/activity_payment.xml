@@ -1,0 +1,77 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00BCD4"
+    android:padding="16dp">
+
+    <!-- Logout ImageView -->
+    <ImageView
+        android:id="@+id/logoutImage"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_gravity="end"
+        android:src="@drawable/btn_4"
+        android:contentDescription="Logout" />
+
+    <!-- Visa Card Image -->
+    <ImageView
+        android:id="@+id/visaCardImage"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:src="@drawable/download"
+        android:contentDescription="Visa Card" />
+
+    <!-- Account Number Input -->
+    <EditText
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:textSize="20dp"
+        android:id="@+id/accountNumberInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Account Number"
+        android:inputType="number" />
+
+    <!-- Payment Method Checkboxes -->
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_marginLeft="30dp"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="16dp">
+
+
+        <CheckBox
+            android:id="@+id/visaCheckbox"
+            android:textColor="#FF5722"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Visa" />
+
+        <CheckBox
+            android:id="@+id/masterCardCheckbox"
+            android:textColor="#FF5722"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Master Card" />
+
+        <CheckBox
+            android:id="@+id/otherCheckbox"
+            android:textColor="#FF5722"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Other" />
+    </LinearLayout>
+
+    <!-- Pay Button -->
+    <Button
+        android:id="@+id/payButton"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pay"
+        android:layout_marginTop="16dp" />
+</LinearLayout>

@@ -1,0 +1,57 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Image at the top of the screen -->
+    <ImageView
+        android:id="@+id/topImage"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/add"
+        android:scaleType="centerCrop"
+        android:layout_marginBottom="20dp" />
+
+    <!-- Product Name EditText -->
+    <EditText
+        android:id="@+id/productName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Product Name"
+        android:layout_marginBottom="10dp" />
+
+    <!-- Product Description EditText -->
+    <EditText
+        android:id="@+id/productDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Product Description"
+        android:layout_marginBottom="10dp" />
+
+    <!-- Product Price EditText -->
+    <EditText
+        android:id="@+id/productPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Product Price"
+        android:inputType="numberDecimal"
+        android:layout_marginBottom="10dp" />
+
+    <!-- Button to Select Image -->
+    <Button
+        android:id="@+id/selectImageButton"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:text="Select Image"
+        android:layout_marginBottom="10dp" />
+
+    <!-- Button to Add Product -->
+    <Button
+        android:id="@+id/addProductButton"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Product" />
+</LinearLayout>
